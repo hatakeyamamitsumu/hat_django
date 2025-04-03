@@ -1,0 +1,16 @@
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+
+# Django関連
+*.log
+/media/
+staticfiles/
+.env  # 環境変数（DBのパスワードなどを含む可能性あり）
+
+# PostgreSQL関連
+*.dump  # PostgreSQLのバックアップファイル
+*.sql   # 手動で作成したSQLスクリプト（Gitで管理しない場合）
+venv/
+env/
