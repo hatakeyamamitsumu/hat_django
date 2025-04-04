@@ -77,13 +77,14 @@ WSGI_APPLICATION = "simple_django.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'my_django_database',
-        'USER': 'root',
-        'PASSWORD': 'hat_django_ok!',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'mydb_0hf2',
+        'USER': 'hatak',
+        'PASSWORD': 'aVcPDxyJPCxafkMkZSuDxBeZMV5Gj3KK',
+        'HOST': 'dpg-cvnk4q9r0fns73eb5ig0-a',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation

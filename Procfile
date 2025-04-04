@@ -1,1 +1,1 @@
-web: gunicorn simple_django.wsgi 
+"web: gunicorn simple_django.wsgi" 
