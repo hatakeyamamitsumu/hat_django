@@ -4,6 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn simple_django.wsgi:application --bind 0.0.0.0:10000"
+    startCommand: "gunicorn simple_django.wsgi:application --bind 0.0.0.0:10000 --workers 2"
+
 
     postDeployCommand: "python manage.py migrate"
