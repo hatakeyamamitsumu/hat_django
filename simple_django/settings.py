@@ -80,7 +80,7 @@ WSGI_APPLICATION = "simple_django.wsgi.application"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mydb_0hf2',
         'USER': 'hatak',
         'PASSWORD': 'aVcPDxyJPCxafkMkZSuDxBeZMV5Gj3KK',
